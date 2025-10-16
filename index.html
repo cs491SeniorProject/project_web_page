@@ -1,343 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Project</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
-<body>
-
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#team">Meet The Team</a></li>
-      <li><a href="#supervisor"> Our Supervisor</a></li>
-      <li><a href="#reports">Reports</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#logs">Logs</a></li>
-      <li><a href="#video">Demo Video</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-
-  <section id="home" class="hero">
-      <div class="graph-background">
-        <svg id="stock-graph" viewBox="0 0 500 150" preserveAspectRatio="none"></svg>
-      </div>
-      <img src="logo.png" alt="Project Logo" class="hero-logo" data-aos="fade-down">
-      <h1 data-aos="fade-up">Our Project Title</h1>
-      <p data-aos="fade-up" data-aos-delay="200">The ultimate trend analyzer for everything you find on the internet</p>
-  </section>
-
-  <section id="overview" class="overview">
-    <h2 class="overview-title">Project Overview</h2>
-
-    <div class="overview-grid">
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-brain feature-icon"></i>
-        </div>
-        <div class="text">
-          <h3>AI-Powered Trend Tracker</h3>
-          <p>
-            Our system leverages machine learning to detect and analyze patterns in real time, helping you stay ahead of market movements and social discussions.
-          </p>
-        </div>
-      </div>
-
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-comment"></i>
-        </div>
-        <div class="text">
-          <h3>Catch What Is Happening</h3>
-          <p>
-            Track live conversations and topics across multiple platforms, identifying the stories and trends people are engaging with the most.
-          </p>
-        </div>
-      </div>
-
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-user-secret"></i>
-        </div>
-        <div class="text">
-          <h3>Fake Trend Analysis</h3>
-          <p>
-            Spot manipulated or artificial trends by analyzing abnormal spikes, bot activity, and irregular posting patterns.
-          </p>
-        </div>
-      </div>
-
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-chart-pie"></i>
-        </div>
-        <div class="text">
-          <h3>Sentiment Analysis</h3>
-          <p>
-            Understand the emotions behind the trends by measuring public sentiment and tone in conversations.
-          </p>
-        </div>
-      </div>
-
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-chart-line"></i>
-        </div>
-        <div class="text">
-          <h3>Market Research</h3>
-          <p>
-            Gain insights into industries, competitors, and audiences with data-driven research on evolving consumer behaviors.
-          </p>
-        </div>
-      </div>
-
-      <div class="overview-item">
-        <div class="icon">
-          <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="text">
-          <h3>For Business or Personal Use</h3>
-          <p>
-            Whether you are a company tracking markets or an individual following interests, the platform adapts to your needs.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="team" class="team" data-aos="fade-up">
-    <h2>Meet the Team</h2>
-      <img src="assets/team/team-photo.jpg" alt="Team Photo" class="team-photo" data-aos="fade-up">
-    <div class="team-grid">
-      <div class="team-member">
-        <img src="assets/team/member1.jpg" alt="Member 1">
-        <h3>Member 1</h3>
-        <div class="social-links">
-          <div>
-            </a href="https://github.com/username" target="_blank">
-              <i class="fab fa-github"></i>
-            </a> |
-          </div>
-          <div>
-            </a href="https://linkedin.com/in/username" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="assets/team/member2.jpg" alt="Member 2">
-        <h3>Member 2</h3>
-        <div class="social-links">
-          <div>
-            </a href="https://github.com/username" target="_blank">
-              <i class="fab fa-github"></i>
-            </a> |
-          </div>
-          <div>
-            </a href="https://linkedin.com/in/username" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="assets/team/member2.jpg" alt="Member 2">
-        <h3>Member 2</h3>
-        <div class="social-links">
-          <div>
-            </a href="https://github.com/username" target="_blank">
-              <i class="fab fa-github"></i>
-            </a> |
-          </div>
-          <div>
-            </a href="https://linkedin.com/in/username" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="assets/team/member2.jpg" alt="Member 2">
-        <h3>Member 2</h3>
-        <div class="social-links">
-          <div>
-            </a href="https://github.com/username" target="_blank">
-              <i class="fab fa-github"></i>
-            </a> |
-          </div>
-          <div>
-            </a href="https://linkedin.com/in/username" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-member">
-        <img src="assets/team/member2.jpg" alt="Member 2">
-        <h3>Member 2</h3>
-        <div class="social-links">
-          <div>
-            </a href="https://github.com/username" target="_blank">
-              <i class="fab fa-github"></i>
-            </a> |
-          </div>
-          <div>
-            </a href="https://linkedin.com/in/username" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="supervisor" class="supervisor" data-aos="fade-up">
-    <h2>Our Supervisor</h2>
-    <div class="supervisor">
-      <img src="assets/team/supervisor.jpg" alt="Supervisor">
-      <h3>Prof. Supervisor</h3>
-      <div class="social-links">
-        <div>
-          </a href="https://linkedin.com/in/username" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-    </div>
-  </section>
-
-  <section id="reports" class="reports" data-aos="fade-up">
-    <h2>Reports</h2>
-    <div class="reports-grid">
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Project Information Form</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Project Idea Presentation</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Assessment And Innovation Form</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Project Specification Document</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Analysis And Requirements Report</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">CS 491 Final Presentation</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Low Level Design Report</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Final Report</a>
-      </div>
-      <div class="report-item">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">CS 492 Final Presentation</a>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="gallery" class="gallery" data-aos="fade-up">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="assets/gallery/img1.jpg" alt="Screenshot 1">
-      <img src="assets/gallery/img2.jpg" alt="Screenshot 2">
-      <img src="assets/gallery/img3.jpg" alt="Screenshot 3">
-    </div>
-  </section>
-
-
-  <section id="logs" class="logs" data-aos="fade-up">
-    <h2>Weekly Logs</h2>
-    <h3>Team Logbook</h3>
-    <div class="team-logs-grid">
-      <div class="logbook">
-        </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Meeting Logs</a>
-      </div>
-    </div>
-    <h3>Individual Logs</h3>
-    <div class="logs-grid">
-      <div>
-        <h4>Member 1</h4>
-        <div class="logbook">
-            </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Logs</a>
-        </div>
-      </div>
-      <div>
-        <h4>Member 2</h4>
-        <div class="logbook">
-            </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Logs</a>
-        </div>
-      </div>
-      <div>
-        <h4>Member 1</h4>
-        <div class="logbook">
-            </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Logs</a>
-        </div>
-      </div>
-      <div>
-        <h4>Member 1</h4>
-        <div class="logbook">
-            </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Logs</a>
-        </div>
-      </div>
-      <div>
-        <h4>Member 1</h4>
-        <div class="logbook">
-            </a href="https://drive.google.com/your-shared-link" target="_blank">Weekly Logs</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="video" class="video" data-aos="fade-up">
-    <h2>Final Demo Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-      title="Demo Video" frameborder="0" allowfullscreen></iframe>
-  </section>
-
-
-  <section id="contact" class="contact" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:team@example.com">team@example.com</a></p>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-logo">
-      <img src="images/fennec-logo.png" alt="Project Logo">
-    </div>
-    <h3>Project name</h3>
-
-    <nav class="footer-nav">
-      <a href="#home">Home</a>
-      <a href="#team">Team & About Us</a>
-      <a href="#reports">Reports</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <p class="copyright">© 2025 _. All rights reserved.</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
--->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -355,7 +15,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-  <!-- NAVBAR -->
   <nav class="navbar" id="nav">
     <div class="brand">
       <img src="assets/logo_small.png" alt="logo">
@@ -374,9 +33,7 @@
     </div>
   </nav>
 
-
   <main>
-    <!-- HERO -->
     <section class="hero" id="home">
       <div class="graph-background">
         <svg id="stock-graph" viewBox="0 0 500 150" preserveAspectRatio="none"></svg>
@@ -386,8 +43,7 @@
       <p data-aos="fade-up" data-aos-delay="200">The ultimate trend analyzer for everything you find on the internet</p>
       <a href="#overview" class="btn btn-primary-hero" data-aos="fade-up" data-aos-delay="400">Learn More</a>
     </section>
-
-    <!-- OVERVIEW -->
+    
     <section id="overview" class="overview">
       <h2>Project Overview</h2>
       <div class="overview-grid">
@@ -460,12 +116,12 @@
           <h3>Rida Fatıma</h3>
           <div class="social-links">
             <div>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/RidaFatima03" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a> |
             </div>
             <div>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/rida-fatima03/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -476,12 +132,12 @@
           <h3>İlsu Karadağ</h3>
           <div class="social-links">
             <div>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ilsukaradag" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a> |
             </div>
             <div>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ilsu-karada%C4%9F-434b8b273/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -492,12 +148,12 @@
           <h3>Emine Fidan</h3>
           <div class="social-links">
             <div>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/emonfidan" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a> |
             </div>
             <div>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/emine-fidan33/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -508,12 +164,12 @@
           <h3>Deniz Çatakoğlu</h3>
           <div class="social-links">
             <div>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/DenizCatakoglu" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a> |
             </div>
             <div>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/deniz-%C3%A7atako%C4%9Flu-51b9932b7/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
@@ -541,7 +197,7 @@
           <h3>Innovation Expert: TBD</h3>
           <div class="social-links">
             <div>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/fazlican/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>
